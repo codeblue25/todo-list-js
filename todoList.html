@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "todoList.css" />
+    <title>Momontom</title>
+</head>
+<body>
+    <div class = "weather">
+    <span class = "js-weather"></span> 
+    </div><!--날씨, 위치-->
+
+    <div class = "clock"> 
+    <h1 class = "js-clock"></h1>          
+    </div><!--시계-->
+
+    <div class = "user"> 
+    <form class = "js-form">          
+        <input type="text" class = "who" placeholder="What is your name?" />
+    </form>
+    <h4 class = "js-greetings"></h4>
+    </div><!--유저네임-->
+
+    <div class = "todo">
+    <h1>Tasks</h1>                     
+    <form action = "" method="GET" class = "todoForm">
+        <input type = "text" id = "todos" placeholder="What's your plan?" class = "js-todo"/>
+    </form>
+    <div class = "lists">
+        <h2 class = "pl">Pending</h2>
+        <ul class = "pendingList"></ul>
+        <h2 class = "fl">Finished</h2>
+        <ul class = "finishedList"></ul>
+    </div>
+    </div><!--투두리스트-->
+
+
+    <script src = "todo.js"></script>
+    <script src = "clock.js"></script>
+    <script src = "weather.js"></script>
+    <script src = "bgImg.js"></script>
+    <script src = "user.js"></script>
+</body>
+</html>

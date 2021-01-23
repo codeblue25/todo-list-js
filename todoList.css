@@ -1,0 +1,45 @@
+*{
+  margin: 0 auto;
+}
+body {
+  /* width: 100%;
+  height: 100%; */
+  font-size: 1em;
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-top: 10%;
+}
+ul, ol, li{
+  list-style: none;
+}
+
+.js-form,
+.js-greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImg {
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: feadIn, 1s linear;
+}
