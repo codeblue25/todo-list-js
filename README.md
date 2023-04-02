@@ -1,2 +1,2 @@
 # todo-list
-Vanila JavaScript로 만드는 투두리스트
+Vanila JavaScript로 투두리스트 만들기
